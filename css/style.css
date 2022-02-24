@@ -1,0 +1,422 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+/* ============ reset all margin and padding also applying font family root ============ */
+/* ============ default settings start ============ */
+
+.header {
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 150%;
+	color: #000000;
+}
+
+.sub-header {
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 32px;
+	color: #000000;
+}
+
+.text {
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 20px;
+	color: #000000;
+}
+
+.buttons {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #000000;
+}
+
+/* ============ default settings end ============ */
+/* ============ navbar start ============ */
+
+nav li {
+	padding-right: 15px;
+	font-size: 18px;
+	line-height: 20%;
+	font-weight: 500;
+}
+
+.navbar-left {
+	margin: 0px 0px 0px 55px;
+}
+
+.image-navbar {
+	width: 200px;
+	height: auto;
+}
+
+.navbar-right {
+	margin: 10px 105px 0px 0px;
+}
+
+.btn-navbar {
+	background-color: #5cb85f;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px 10px 20px;
+	text-transform: capitalize;
+	color: #ffff;
+	font-size: 16px;
+	transition: 0.3s ease-in-out;
+	margin-left: 30px;
+}
+
+.btn-navbar:hover {
+	background-color: #42e947;
+	color: rgb(45, 44, 44);
+}
+
+/* ============ navbar end ============ */
+/* ============ landing page start ============ */
+
+.landing-page {
+	position: relative;
+	background-color: #f1f3ff;
+	font-size: 20px;
+	padding-bottom: 100px;
+}
+
+.landing-page-header {
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 150%;
+	margin: 2em 0em 0em 2em;
+}
+
+.landing-page p {
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 20px;
+	margin: 1em 0em 0em 5em;
+	padding-right: 15px;
+	line-height: 20px;
+}
+
+.right {
+	position: absolute;
+	right: 0px;
+	bottom: 0;
+}
+
+.container-button-left {
+	position: relative;
+}
+
+.btn-landing-page {
+	background-color: #3ab93e;
+	color: #ffff;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: capitalize;
+	padding: 0.6em;
+	border-radius: 2px;
+	border: none;
+	transition: 0.3s ease-in-out;
+	margin: 1.5em 0em 0em 3.5em;
+}
+
+.btn-landing-page:hover {
+	background-color: #0a710c;
+	border-radius: 25px;
+}
+
+/* ============ landing page  end ============ */
+/* ============ our service start ============ */
+
+.our-service {
+	font-size: 30px;
+}
+
+.right-service {
+	margin-top: 7em;
+}
+
+.our-service-image {
+	margin: 5em 0em 3em 0em;
+}
+
+.our-servisce-header {
+	font-size: 24px;
+	line-height: 36px;
+}
+
+.text-service {
+	display: inline;
+}
+
+.our-service-text {
+	font-size: 14px;
+	margin-top: 18px;
+	line-height: 20px;
+}
+
+.img-check {
+	width: 24px;
+	height: auto;
+	margin-right: 15px;
+}
+
+/* ============ our service  end ============ */
+/* ============ why us start ============ */
+
+.why-us {
+	margin: 150px auto 150px auto;
+}
+
+.svg-icons {
+	display: block;
+	margin: auto;
+}
+
+.why-us-header {
+	text-transform: capitalize;
+	font-weight: bold;
+	line-height: 36px;
+}
+
+.why-us-text {
+	font-weight: lighter;
+	margin: 10px 0px 50px 0px;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.card-title-whyUs {
+	font-weight: bold;
+}
+
+.card-text {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: lighter;
+}
+
+.icon-1 {
+	background-color: #f9cc00;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	padding: 8px;
+	margin-bottom: 20px;
+}
+
+.icon-2 {
+	background-color: #fa2c5a;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	padding: 7px 11px;
+	margin-bottom: 20px;
+}
+
+.icon-3 {
+	background-color: #0d28a6;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	padding: 6px 10px;
+	margin-bottom: 20px;
+}
+
+.icon-4 {
+	background-color: #5cb85f;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	padding: 6px 10px;
+	margin-bottom: 20px;
+}
+
+/*============ why us end ============ */
+/* ============ testimonial  start ============ */
+
+.card-container-1 {
+	margin-top: 100px;
+	padding: 50px 50px;
+	height: 300px;
+	width: 300px;
+	background-color: #f1f3ff;
+	border: none;
+	border-radius: 8px;
+}
+
+.card-group {
+	gap: 10px;
+}
+
+.container-image-1 {
+	margin: none;
+	padding: none;
+}
+
+.card-image-1 {
+	display: flex;
+	position: relative;
+	width: 90px;
+	height: 90px;
+	margin: 50px 5px 0px -20px;
+	border-radius: 50%;
+}
+
+.star-1 {
+	margin: 15px 0px;
+	width: 40%;
+	height: auto;
+}
+
+.text-card-1 {
+	font-weight: lighter;
+	font-size: 14px;
+	line-height: 20px;
+	margin-right: -10px;
+}
+
+.name-card-1 {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.button-group {
+	margin-top: 20px;
+}
+
+.btn-previous {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 1px solid #c4c4c4;
+	margin: 0px 12px 0px 12px;
+	transition: 0.3s ease-in-out;
+}
+
+.btn-previous:hover {
+	border-radius: 25%;
+	border: 2px solid #252323;
+	background-color: transparent;
+}
+
+.btn-next {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: #5cb85f;
+	transition: 0.3s ease-in-out;
+}
+
+.btn-next:hover {
+	border-radius: 25%;
+	background-color: #18bb1d;
+	transition: 0.3s ease-in-out;
+}
+
+/* ============ testimonial  end ============ */
+/* ============ cta  start ============ */
+
+.cta-banner {
+	background-color: #0d28a6;
+	border-radius: 13px;
+	margin-top: 150px;
+}
+
+.cta-banner h2 {
+	color: #ffffff;
+	font-weight: bolder;
+	padding: 75px 0px 30px 0px;
+}
+
+.qta-text {
+	color: #ffffff;
+	font-weight: lighter;
+}
+
+.btn-qta {
+	background-color: #5cb85f;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 18px 10px 18px;
+	text-transform: capitalize;
+	color: #ffff;
+	font-size: 20px;
+	margin: 30px 0px 50px 0px;
+	font-weight: bold;
+	transition: 0.3s ease-in-out;
+}
+
+.btn-qta:hover {
+	background-color: #0d8111;
+}
+/* ============ cta end ============ */
+/* ============ faq start ============ */
+
+.faq {
+	margin: 150px 150px;
+}
+
+.faq-header {
+	margin-bottom: 20px;
+}
+
+.btn-dropdown {
+	border: 1px solid #d4d4d4;
+	border-radius: 4px;
+	background-color: transparent;
+	color: black;
+	font-weight: lighter;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 20px 0px 15px 10px;
+	margin-bottom: 16px;
+	width: 620px;
+}
+
+.dropdown-icon-1 {
+	width: 24px;
+	height: auto;
+	margin-left: 300px;
+}
+
+.dropdown-icon-2 {
+	width: 24px;
+	height: auto;
+	margin-left: 233px;
+}
+
+.dropdown-icon-3 {
+	width: 24px;
+	height: auto;
+	margin-left: 159px;
+}
+
+.dropdown-icon-4 {
+	width: 24px;
+	height: auto;
+	margin-left: 311px;
+}
+
+.dropdown-icon-5 {
+	width: 24px;
+	height: auto;
+	margin-left: 305px;
+}
+
+.dropdown-text {
+	font-size: 12px;
+	font-weight: lighter;
+	padding: 15px;
+}
+
+/* ============ FAQ  end ============ */
+/* ============ Footer  start ============ */
+.icon-container a img {
+	width: 32px;
+	height: auto;
+}
