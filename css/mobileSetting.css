@@ -1,0 +1,154 @@
+@media screen and (max-width: 992px) {
+	/* ============ navbar end ============ */
+	/* ============ landing page start ============ */
+
+	.left {
+		margin-bottom: 50px;
+	}
+
+	.right {
+		width: 400px;
+	}
+
+	.button-left {
+		margin-left: 20px;
+		margin-bottom: 100px;
+	}
+
+	.text-landings-page {
+		margin-top: 30px;
+	}
+
+	.btn-landing-page {
+		margin-left: -10rem;
+	}
+
+	/* ============ landing page  end ============ */
+	/* ============ our service start ============ */
+
+	.right-service h2 {
+		text-align: left;
+		margin-bottom: 25px;
+		padding: 0px 20px;
+	}
+
+	.right-service p {
+		text-align: left;
+		margin-bottom: 25px;
+		padding: 0px 20px;
+	}
+
+	/* ============ our service  end ============ */
+	/* ============ faq start ============ */
+
+	.faq-section {
+		margin: auto auto auto 5px;
+	}
+
+	.faq-section h2 {
+		text-align: center;
+	}
+
+	.faq-section p {
+		text-align: center;
+	}
+
+	.btn-dropdown {
+		padding: 20px 0px 15px 10px;
+	}
+
+	.dropdown-icon-1 {
+		width: 24px;
+		margin-left: 204px;
+	}
+	.dropdown-icon-2 {
+		width: 24px;
+		margin-left: 135px;
+	}
+	.dropdown-icon-3 {
+		width: 24px;
+		margin-left: 60px;
+	}
+	.dropdown-icon-4 {
+		width: 24px;
+		margin-left: 210px;
+	}
+	.dropdown-icon-5 {
+		width: 24px;
+		margin-left: 200px;
+	}
+
+	/* ============ faq  end ============ */
+	/* ============ testimonial start ============ */
+
+	.card-container-1 {
+		margin-bottom: 20px;
+	}
+
+	.star {
+		margin-top: 40px;
+		width: 30%;
+		height: auto;
+	}
+
+	/* ============ faq  end ============ */
+	/* ============ cta start ============ */
+
+	.cta-section-s {
+		background-color: antiquewhite;
+	}
+
+	footer.text {
+		text-align: center;
+	}
+}
+
+/* ============ faq  dropdown icon ============ */
+
+@media screen and (min-width: 993px) and (max-width: 1079px) {
+	.dropdown-icon-1 {
+		width: 24px;
+		margin-left: 185px;
+	}
+	.dropdown-icon-2 {
+		width: 24px;
+		margin-left: 115px;
+	}
+	.dropdown-icon-3 {
+		width: 24px;
+		margin-left: 40px;
+	}
+	.dropdown-icon-4 {
+		width: 24px;
+		margin-left: 190px;
+	}
+	.dropdown-icon-5 {
+		width: 24px;
+		margin-left: 180px;
+	}
+}
+
+/* ============ sama kek diatas.... pegel banget gaes disini  ============ */
+
+@media screen and (min-width: 1080px) {
+	.dropdown-icon-1 {
+		width: 24px;
+		margin-left: 275px;
+	}
+	.dropdown-icon-2 {
+		width: 24px;
+		margin-left: 205px;
+	}
+	.dropdown-icon-3 {
+		width: 24px;
+		margin-left: 130px;
+	}
+	.dropdown-icon-4 {
+		width: 24px;
+		margin-left: 280px;
+	}
+	.dropdown-icon-5 {
+		width: 24px;
+		margin-left: 270px;
+	}
+}
